@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Regression model R-squared comparison</title>
+  <desc id="desc">Multiple linear regression scores 0.9161, compared with 0.5627 for polynomial regression and 0.5625 for simple linear regression.</desc>
+  <defs>
+    <linearGradient id="best" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0F766E"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2563EB"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0F172A" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect x="1" y="1" width="898" height="428" rx="24" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="54" y="58" font-size="27" font-weight="700" fill="#0F172A">Test-set model performance</text>
+    <text x="54" y="87" font-size="16" fill="#64748B">R-squared (higher is better)</text>
+    <g stroke="#CBD5E1" stroke-width="1">
+      <line x1="250" y1="112" x2="250" y2="352"/><line x1="380" y1="112" x2="380" y2="352" stroke-dasharray="4 5"/>
+      <line x1="510" y1="112" x2="510" y2="352" stroke-dasharray="4 5"/><line x1="640" y1="112" x2="640" y2="352" stroke-dasharray="4 5"/>
+      <line x1="770" y1="112" x2="770" y2="352" stroke-dasharray="4 5"/>
+    </g>
+    <g fill="#64748B" font-size="14" text-anchor="middle"><text x="250" y="378">0.0</text><text x="380" y="378">0.25</text><text x="510" y="378">0.50</text><text x="640" y="378">0.75</text><text x="770" y="378">1.0</text></g>
+    <g fill="#1E293B" font-size="17" font-weight="600" text-anchor="end"><text x="225" y="157">Simple Linear</text><text x="225" y="237">Polynomial (d=2)</text><text x="225" y="317">Multiple Linear</text></g>
+    <g filter="url(#shadow)">
+      <rect x="250" y="130" width="520" height="40" rx="20" fill="#E2E8F0"/><rect x="250" y="130" width="293" height="40" rx="20" fill="url(#base)"/>
+      <rect x="250" y="210" width="520" height="40" rx="20" fill="#E2E8F0"/><rect x="250" y="210" width="293" height="40" rx="20" fill="url(#base)"/>
+      <rect x="250" y="290" width="520" height="40" rx="20" fill="#CCFBF1"/><rect x="250" y="290" width="476" height="40" rx="20" fill="url(#best)"/>
+    </g>
+    <g font-size="17" font-weight="700"><text x="555" y="157" fill="#1E3A8A">0.5625</text><text x="555" y="237" fill="#1E3A8A">0.5627</text><text x="738" y="317" fill="#065F46">0.9161</text></g>
+    <g transform="translate(672 34)"><rect width="172" height="38" rx="19" fill="#D1FAE5"/><circle cx="22" cy="19" r="9" fill="#10B981"/><path d="M18 19l3 3 6-7" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><text x="40" y="25" font-size="15" font-weight="700" fill="#065F46">Best: Multiple</text></g>
+  </g>
+</svg>

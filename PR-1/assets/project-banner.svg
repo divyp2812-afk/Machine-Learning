@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Predictive Insight Engine</title>
+  <desc id="desc">A dark blue banner with a stylized house and rising analytics chart.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071A2F"/><stop offset="0.55" stop-color="#123B59"/><stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A7F3D0"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#00101E" flood-opacity="0.45"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#E6FFFB" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/><rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1080" cy="30" r="210" fill="#22D3EE" opacity="0.05"/><circle cx="1140" cy="330" r="170" fill="#A7F3D0" opacity="0.045"/>
+  <g transform="translate(82 70)" filter="url(#shadow)">
+    <rect width="222" height="222" rx="42" fill="#FFFFFF" fill-opacity="0.09" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <path d="M43 109L111 51l68 58v74a9 9 0 0 1-9 9H52a9 9 0 0 1-9-9z" fill="none" stroke="#E6FFFB" stroke-width="11" stroke-linejoin="round"/>
+    <path d="M88 192v-48h46v48" fill="none" stroke="#E6FFFB" stroke-width="10" stroke-linejoin="round"/>
+    <polyline points="65,145 91,126 112,137 156,98" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M143 98h13v13" fill="none" stroke="#A7F3D0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#FFFFFF">
+    <text x="354" y="122" font-size="22" font-weight="600" letter-spacing="4" fill="#67E8F9">SUPERVISED LEARNING PROJECT</text>
+    <text x="350" y="184" font-size="50" font-weight="750">Predictive Insight Engine</text>
+    <text x="354" y="231" font-size="25" fill="#D5F5F1">House Price Regression &amp; Model Diagnostics</text>
+    <g transform="translate(354 267)" font-size="17" font-weight="600">
+      <rect width="170" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.10"/><text x="21" y="26">4,200 Properties</text>
+      <rect x="184" width="209" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.10"/><text x="205" y="26">3 Regression Models</text>
+      <rect x="407" width="177" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.10"/><text x="429" y="26">Best R2: 0.9161</text>
+    </g>
+  </g>
+</svg>
