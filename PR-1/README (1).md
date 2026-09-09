@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="project-banner.svg" alt="Machine Learning PR-1 Project Banner" width="100%">
+  <img src="assets\project-banner.svg" alt="Machine Learning PR-1 Project Banner" width="100%">
 </p>
 
 # Machine Learning PR-1 — House Price Prediction Using Regression
@@ -129,7 +129,7 @@ Polynomial Regression provided only a very small improvement over Simple Linear 
 
 
 <p align="center">
-  <img src="model-performance.svg" alt="Model Performance Comparison" width="100%">
+  <img src="assets\model-performance.svg" alt="Model Performance Comparison" width="100%">
 </p>
 
 ### Best Model
